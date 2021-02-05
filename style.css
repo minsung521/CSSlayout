@@ -1,5 +1,10 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Mega&display=swap");
+
 body {
 	background: #a5dff9;
+	/* font-family: "Lexend Mega", sans-serif; */
+	font-family: "Big Shoulders Display", cursive;
 }
 .title {
 	text-align: center;
@@ -15,7 +20,7 @@ body {
 	text-decoration: none;
 	color: violet;
 	text-shadow: 2px 2px 2px ivory;
-	font-size: 3em;
+	font-size: 3.5em;
 	font-weight: bold;
 }
 .btns {
@@ -35,7 +40,7 @@ body {
 .btns .txtinbtn {
 	margin: auto auto;
 	color: blanchedalmond;
-	font-size: 3em;
+	font-size: 3.5em;
 	font-weight: bolder;
 }
 #goto-grid {
