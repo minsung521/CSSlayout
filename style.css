@@ -1,16 +1,36 @@
+body {
+	background: #a5dff9;
+}
 .title {
 	text-align: center;
+	border: 2px solid ivory;
+	margin: auto 20%;
+	border-radius: 1em;
+	background: #feee7d;
 }
 .title a {
 	text-decoration: none;
+	color: violet;
 }
 .btns {
 	margin: 10% auto;
 	text-align: center;
 }
-.btns div {
+.btns .btnframe {
 	display: inline-flex;
-	border: 3px solid;
-	width: 200px;
-	height: 250px;
+	/* border: 3px solid ivory; */
+	border: none;
+	border-radius: 3%;
+	width: 20rem;
+	height: 30rem;
+}
+#goto-grid {
+	background: #60c5ba;
+}
+#goto-flex {
+	background: #ef5285;
+}
+.btns .txtinbtn {
+	margin: auto auto;
+	font-size: 2em;
 }
