@@ -3,34 +3,44 @@ body {
 }
 .title {
 	text-align: center;
-	border: 2px solid ivory;
-	margin: auto 20%;
+	border: 2px solid #feee7d;
+	margin: 3rem 20% 0 20%;
 	border-radius: 1em;
 	background: #feee7d;
+	box-shadow: 0px 0px 5px gray;
 }
-.title a {
+.title .titleanchor {
+	display: block;
+	margin: 0.3em 0;
 	text-decoration: none;
 	color: violet;
+	text-shadow: 2px 2px 2px ivory;
+	font-size: 3em;
+	font-weight: bold;
 }
 .btns {
-	margin: 10% auto;
+	margin: 10rem auto;
 	text-align: center;
 }
 .btns .btnframe {
 	display: inline-flex;
 	/* border: 3px solid ivory; */
+	margin: auto 10px;
 	border: none;
 	border-radius: 3%;
-	width: 20rem;
+	width: 25rem;
 	height: 30rem;
+	box-shadow: 0px 0px 10px gray;
+}
+.btns .txtinbtn {
+	margin: auto auto;
+	color: blanchedalmond;
+	font-size: 3em;
+	font-weight: bolder;
 }
 #goto-grid {
 	background: #60c5ba;
 }
 #goto-flex {
 	background: #ef5285;
-}
-.btns .txtinbtn {
-	margin: auto auto;
-	font-size: 2em;
 }
